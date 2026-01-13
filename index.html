@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour Cuts - Professional Hairdressing Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>✂️ Glamour Cuts</h1>
+                </div>
+                <nav class="navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" id="menuToggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Glamour Cuts</h2>
+                <p>Your Premier Destination for Professional Hairdressing</p>
+                <button class="cta-button">Book an Appointment</button>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Our Work Showcase</h2>
+                <p class="gallery-subtitle">Browse our collection of stunning hairstyles for women and men</p>
+                
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="women">Women</button>
+                    <button class="filter-btn" data-filter="men">Men</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Women's Styles -->
+                    <div class="gallery-item women" data-category="women">
+                        <img src="images/woman/240_F_131361097_go1g8GNvzImqN1rQzkwB7QzJTv5tB1Hh.jpg" alt="Woman with elegant hairstyle">
+                        <div class="gallery-overlay">
+                            <h3>Elegant Style</h3>
+                            <p>Sophisticated and beautiful</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item women" data-category="women">
+                        <img src="images/woman/240_F_394126314_a9vVPKvk4y8YQYC93AXvsbv5pX1tVZhv.jpg" alt="Woman with modern haircut">
+                        <div class="gallery-overlay">
+                            <h3>Modern Cut</h3>
+                            <p>Sleek and stylish</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item women" data-category="women">
+                        <img src="images/woman/240_F_456324951_EKZgxZHNZGvDCkznq4bkeD9pXlrqgj4d.jpg" alt="Woman with highlights">
+                        <div class="gallery-overlay">
+                            <h3>Highlighted Hair</h3>
+                            <p>Natural and radiant</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item women" data-category="women">
+                        <img src="images/woman/240_F_589140585_P1hZUIrw4yAOILYl0h85BwdIU2BmsMPd.jpg" alt="Woman with curly hair">
+                        <div class="gallery-overlay">
+                            <h3>Curly Elegance</h3>
+                            <p>Voluminous and beautiful</p>
+                        </div>
+                    </div>
+
+                    <!-- Men's Styles -->
+                    <div class="gallery-item men" data-category="men">
+                        <img src="images/man/240_F_139764438_UDTTlYg25aV1GVVo4tgGSF68XnDOr50B.jpg" alt="Man with classic fade">
+                        <div class="gallery-overlay">
+                            <h3>Classic Fade</h3>
+                            <p>Timeless and sharp</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item men" data-category="men">
+                        <img src="images/man/240_F_440134676_LIC9J4q6yG2uKsJ0hQ2b0cKmYcz8fCyr.jpg" alt="Man with textured cut">
+                        <div class="gallery-overlay">
+                            <h3>Textured Top</h3>
+                            <p>Modern and stylish</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item men" data-category="men">
+                        <img src="images/man/240_F_677710881_O9cYLkbXmzVRmqM0TMA9FqPiZfzB566q.jpg" alt="Man with undercut">
+                        <div class="gallery-overlay">
+                            <h3>Sharp Undercut</h3>
+                            <p>Bold and contemporary</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item men" data-category="men">
+                        <img src="images/man/240_F_693649716_1lwx0fAiSOldX95gp6WKecop80mVsByD.jpg" alt="Man with styled hair">
+                        <div class="gallery-overlay">
+                            <h3>Styled Look</h3>
+                            <p>Classic with attitude</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Glamour Cuts. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
